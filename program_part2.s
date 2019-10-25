@@ -11,12 +11,13 @@
 
   @ BSS section
       .bss
+PRESENT: .word 0
 
   @ DATA SECTION
 	.data
 STRING: .asciz "CS6620"
 SUBSTR: .asciz "6"
-PRESENT: .word 0
+
 
   @ TEXT section
 	.text
